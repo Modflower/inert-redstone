@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Sources only" pattern="file[inert-redstone.main]:*/" />
+</component>

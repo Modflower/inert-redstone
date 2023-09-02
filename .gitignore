@@ -1,0 +1,14 @@
+# These never need to be in the Git repository.
+.gradle/
+run/
+out/
+build/
+remappedSrc/
+
+# Ignores the entire .idea folder
+# The * is important as 2 folders will be unignored right after.
+.idea/*
+
+# To allow automatic copyright application,
+!.idea/scopes/
+!.idea/copyright/

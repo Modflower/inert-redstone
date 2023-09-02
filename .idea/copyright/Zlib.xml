@@ -1,0 +1,7 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="allowReplaceRegexp" value="Ampflower" />
+    <option name="notice" value="Copyright (C) &amp;#36;originalComment.match(&quot;Copyright (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year, Ampflower&#10;&#10;This software is subject to the terms of the Zlib License.&#10;If a copy was not distributed with this file, you can obtain one at&#10;https://github.com/Modflower/inert-redstone/blob/trunk/LICENSE&#10;&#10;Source: https://github.com/Modflower/inert-redstone&#10;SPDX-License-Identifier: Zlib" />
+    <option name="myName" value="Zlib" />
+  </copyright>
+</component>

@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "gay.ampflower.inertredstone.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MixinRedstoneOreBlock"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

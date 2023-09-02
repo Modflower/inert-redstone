@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "inert-redstone",
+	"version": "${version}",
+	"name": "Inert Redstone Ore",
+	"description": "Redstone ore now ignores the world.\n\nWanted by alexia.\n\n\"Compatibility cockroaches scare me deeply\" Ennui, 2023",
+	"authors": [
+		"Ampflower"
+	],
+	"license": [
+		"Zlib"
+	],
+	"contact": {
+		"sources": "https://github.com/${githubRepository}",
+		"issues": "https://github.com/${githubRepository}/issues",
+		"discord": "https://discord.gg/EmPS9y9"
+	},
+	"icon": "assets/inert-redstone/pack.png",
+	"environment": "*",
+	"mixins": [
+		"inert-redstone.mixin.json"
+	],
+	"depends": {
+		"minecraft": ">=${minecraftRequired}",
+		"fabricloader": ">=0.12.0",
+		"java": ">=${java}"
+	}
+}
