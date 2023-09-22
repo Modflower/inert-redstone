@@ -13,7 +13,7 @@ val githubRepository: String by project
 val isPublish = System.getenv("GITHUB_EVENT_NAME") == "release"
 val isRelease = System.getenv("BUILD_RELEASE").toBoolean()
 val isActions = System.getenv("GITHUB_ACTIONS").toBoolean()
-val baseVersion = "$projectVersion+mc.${libs.versions.minecraft.required.get()}"
+val baseVersion = "$projectVersion+mc.${libs.versions.minecraft.version.get()}"
 version = when {
 	isRelease -> baseVersion
 	isActions -> "$baseVersion-build.${System.getenv("GITHUB_RUN_NUMBER")}-commit.${System.getenv("GITHUB_SHA").substring(0, 7)}-branch.${System.getenv("GITHUB_REF")?.substring(11)?.replace('/', '.') ?: "unknown"}"
